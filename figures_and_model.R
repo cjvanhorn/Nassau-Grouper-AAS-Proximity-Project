@@ -5,9 +5,9 @@
 #          (949) 233-8671
 #          cameronvanhorn@gmail.com
 
-################################
-###### TERMS AND ACRONYMS ######
-################################
+##############################
+##### TERMS AND ACRONYMS #####
+##############################
 
 # NG == Nassau Grouper
 # AAS == Aggregation-associated sounds
@@ -1975,9 +1975,9 @@ ggsave(filename = 'heat_map.png',
        height = 18)
 
 
-##################################################
-##### FIGURE S2 & S3: Anthropogenic Activity #####
-##################################################
+#############################################
+##### FIGURE S2: Anthropogenic Activity #####
+#############################################
 # Make the time series
 anthro_plot <- {
    ggplot(data = anthro_data,
@@ -2035,7 +2035,6 @@ anthro_hist <- {
                    limits = c(225, 0)) +
    theme_bw() +
    theme(panel.grid.major.y = element_blank(),
-         axis.ticks.y = element_blank(),
          panel.background = element_rect(fill = 'white'),
          strip.background = element_rect(fill = 'black'),
          strip.text = element_text(color = 'white',
