@@ -44,3 +44,5 @@ The R script file 'model_and_figures.R' contains the Bayesian model and all code
 
 # Important Notes
 The third hydrophone station (LS3) malfunctioned early during recording and did not collect acoustic data. ST4 also experienced an abrupt malfunction near midnight of February 15, thus it did not collect data for the remainder of the recording period. In array_data, all acoustic data for ST4 is NA upon February 15 and after. However, model_formatted_data only includes data up until February 15 due to the necessity of the model to have consistent observations across all stations. 
+
+Our model runs using the rethinking package developed by McElreath (2020) in R. This package, while remarkable, requires significant preparation in order to load properly. Details into this preparation can be found commented in the code provided. Any questions that arise from loading this package should not be directed here.
