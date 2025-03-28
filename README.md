@@ -3,6 +3,9 @@
 # Purpose
 The purpose of this repository is to provide the finalized data, Bayesian model framework, and code to produce figures presented in _Hydrophone placement yields high variability in detection of_ Epinephelus striatus _calls at a spawning site_, to be published in _Ecological Applications_. 
 
+# Open Research Statement
+In an effort to make our research reproducible and accessible, we provide all raw acoustic data recorded by the five hydrophones in this study. The raw acoustic data can be found on google drive at the following link: <https://drive.google.com/drive/folders/1L1-DVdh9bRZWZD1oy-l6h2QWVltPYfsv?usp=sharing>
+
 # Organization
 The R script file 'model_and_figures.R' contains the Bayesian model and all code to construct each figure presented in the manuscript. The R data file 'data_for_figures_and_model.RData' contains all finalized data formatted for use in the script file and for figure generation. This includes:
   - **anthro_data** - a binary categorization of minutes in which significant interference is present ('INTERFERENCE_PRESENT') in the acoustic data recorded at a given hydrophone. The data is organized long with each hydrophone's dataset stacked on top of each other and labeled by a factored column termed 'HYDROPHONE'. These are time stamped in three ways:
